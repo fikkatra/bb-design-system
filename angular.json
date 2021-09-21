@@ -8,6 +8,11 @@
       "root": "projects/design-system",
       "sourceRoot": "projects/design-system/src",
       "prefix": "ds",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
