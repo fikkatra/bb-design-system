@@ -1,4 +1,6 @@
 /*
  * Public API Surface of design-system
  */
-export const a = 'a';
+export * from './lib/button/button.component';
+export * from './lib/button/button.module';
+export * from './lib/button/button-style';

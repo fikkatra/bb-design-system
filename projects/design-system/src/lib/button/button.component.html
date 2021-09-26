@@ -1,0 +1,7 @@
+<button
+  class="button"
+  [class]="'button--' + buttonStyle.toLowerCase()"
+  (keyup.space)="spaceKeyUp.emit()"
+>
+  {{ label }}
+</button>
