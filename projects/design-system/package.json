@@ -1,5 +1,5 @@
 {
-  "name": "@aebb/design-system",
+  "name": "@bb/design-system",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^12.1.0",
